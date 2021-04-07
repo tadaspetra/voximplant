@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_voximplant (3.0.0):
+    - Flutter
+    - VoxImplantSDK (= 2.36.2)
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - VoxImplantSDK (2.36.2):
+    - VoxImplantSDK/Core (= 2.36.2)
+  - VoxImplantSDK/Core (2.36.2):
+    - VoxImplantWebRTC (= 78.5.1)
+  - VoxImplantWebRTC (78.5.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_voximplant (from `.symlinks/plugins/flutter_voximplant/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - VoxImplantSDK (from `voximplant/VoxImplant_bitcode/`)
+  - VoxImplantWebRTC (from `voximplant/VoxImplantWebRTC_bitcode/`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_voximplant:
+    :path: ".symlinks/plugins/flutter_voximplant/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  VoxImplantSDK:
+    :path: voximplant/VoxImplant_bitcode/
+  VoxImplantWebRTC:
+    :path: voximplant/VoxImplantWebRTC_bitcode/
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_voximplant: adb62712fee1f4fba1379b9a2995a40afb3d7ea3
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  VoxImplantSDK: 349743fa9798c405ace58ca133718ad1d6b1a555
+  VoxImplantWebRTC: 0e59bb273362146971da47421ebc5e846ed79699
+
+PODFILE CHECKSUM: 7ffc75605f7787a22c5606c528a958f7f7fc0cfe
+
+COCOAPODS: 1.10.1
